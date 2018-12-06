@@ -1,0 +1,6 @@
+/Users/kingpin/Projects/adventofcode/day1/day1/bin/Debug/day1.exe
+/Users/kingpin/Projects/adventofcode/day1/day1/bin/Debug/day1.pdb
+/Users/kingpin/Projects/adventofcode/day1/day1/obj/x86/Debug/day1.csprojAssemblyReference.cache
+/Users/kingpin/Projects/adventofcode/day1/day1/obj/x86/Debug/day1.csproj.CoreCompileInputs.cache
+/Users/kingpin/Projects/adventofcode/day1/day1/obj/x86/Debug/day1.exe
+/Users/kingpin/Projects/adventofcode/day1/day1/obj/x86/Debug/day1.pdb

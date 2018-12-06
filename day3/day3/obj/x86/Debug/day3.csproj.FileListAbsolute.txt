@@ -1,0 +1,8 @@
+/Users/kingpin/Projects/adventofcode/day3/day3/obj/x86/Debug/day3.csprojAssemblyReference.cache
+/Users/kingpin/Projects/adventofcode/day3/day3/obj/x86/Debug/day3.csproj.CoreCompileInputs.cache
+/Users/kingpin/Projects/adventofcode/day3/day3/bin/Debug/day3.exe
+/Users/kingpin/Projects/adventofcode/day3/day3/bin/Debug/day3.pdb
+/Users/kingpin/Projects/adventofcode/day3/day3/obj/x86/Debug/day3.exe
+/Users/kingpin/Projects/adventofcode/day3/day3/obj/x86/Debug/day3.pdb
+/Users/kingpin/Projects/adventofcode/day3/day3/bin/Debug/System.Drawing.Common.dll
+/Users/kingpin/Projects/adventofcode/day3/day3/obj/x86/Debug/day3.csproj.CopyComplete

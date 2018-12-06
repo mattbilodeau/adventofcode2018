@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{34FD4540-16DE-4F77-BC85-C7CE2AE47875}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="day3/Program.cs">
+    <Files>
+      <File FileName="day3/Program.cs" Line="54" Column="34" />
+      <File FileName="day3/data.txt" Line="3" Column="20" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.day3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
