@@ -39,7 +39,6 @@ namespace day5
 
                 tmpPoly = rs.ReactString(tmpPoly);
 
-
                 if (tmpPoly.Length < whlen)
                 {
                     whlen = tmpPoly.Length;
@@ -56,38 +55,43 @@ namespace day5
 
     class RS
     {
-        public string ReactString(string poly1)
+        public string ReactString(string poly)
         {
-            string poly = poly1;
             int changes = 10000;
+                //loop while there are still changes being made.
             while (changes != 0)
             {
+
                 changes = 0;
+                    // search the string for changes, and remove the elements from the polymer.
                 for (int i = 0; i < (poly.Length - 1); i++)
                 {
+                        // get current and next character
                     char ch = poly[i];
                     char nch = poly[(i + 1)];
 
-
                     char chT;
                     char nchT;
+                        // if next character is lowercase, make th transform upper
                     if ((char)'a' <= nch && nch <= (char)'z')
                     {
-                        chT = (char)(ch + 32);
+                        chT = Char.ToUpper(ch);
                     }
                     else
                     {
-                        chT = (char)(ch - 32);
+                        chT = Char.ToLower(ch);
                     }
+                        // if current character lower set the T to upper.
                     if ((char)'a' <= ch && ch <= (char)'z')
                     {
-                        nchT = (char)(nch + 32);
+                        nchT = Char.ToUpper(nch);
                     }
                     else
                     {
-                        nchT = (char)(nch - 32);
+                        nchT = Char.ToLower(nch);
                     }
 
+                        // if for int i = 0, remove aA and Aa from string, and mark a change was made, 
                     if (ch == nchT || nch == chT) {
                         poly = poly.Substring(0, i) + poly.Substring((i + 2), poly.Length - (i + 2));
                         changes++;
